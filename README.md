@@ -1,16 +1,38 @@
-# nukdi2
+# 🚗 Car Parts Marketplace App
 
-A new Flutter project.
+A full-featured multi-vendor mobile application for car part discovery and ordering, developed using **Flutter** with **YOLOv8-based image recognition**, backed by a **Node.js** and **MongoDB** server.
 
-## Getting Started
+## 🧩 Key Features
 
-This project is a starting point for a Flutter application.
+- 🔍 **Image-Based Search**: Users can upload a photo of a car part to identify it using YOLOv8 object detection.
+- 🛒 **Multi-Vendor Support**: Each business has its own dashboard to manage products, orders, and inventory.
+- 🔐 **Secure Authentication**: JWT-based login system for users and business admins.
+- 📦 **Product Filtering**: Search and filter parts by car **brand**, **model**, and **year**.
+- 📊 **Real-Time Order Tracking**: Users can place and monitor orders with vendor-specific history.
+- 🖼️ **Image Upload & Cloud Storage**: Product images are stored and retrieved efficiently.
+- 💬 **Clean and Modern UI**: Built with Flutter for cross-platform consistency and responsiveness.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Frontend
+- Flutter (Dart)
+- Provider (state management)
+- HTTP and Cloudinary packages
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Backend
+- Node.js & Express.js
+- MongoDB & Mongoose
+- C++ (for certain backend processing modules)
+- JWT (authentication)
+
+### Additional Tools
+- YOLOv8 (Ultralytics) for object detection
+- Cloudinary for image hosting
+- Postman for API testing
+- Git & GitHub for version control
+#### Let me know if you'd like to:
+- Translate any of it into Albanian
+- Add screenshots / demo GIFs
+- Host the backend on **Render**, **Railway**, or **Heroku**
+
+I'm happy to tailor it further!
